@@ -32,10 +32,7 @@ class Test
         int b = sc.nextInt();
         int ans;
        
-        switch(op){public class Calculator {
-            
-        }
-        
+        switch(op){
             case '+' : ans = a + b;
             break;
             case '-': ans =a-b;
