@@ -14,7 +14,8 @@ class DecimalBinary {
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);45
-        int a=sc.nextInt();
+        int a=sc.nextInt(); 
+        
         System.out.print(Integer.toBinaryString(a));
     }
     
