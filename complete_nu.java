@@ -29,7 +29,7 @@ class CompleteNumber
         //int arr [] = new int[50];
         int i =0,check =0;
         // sample no 214
-        // int arr[50];(c++ lo)
+        // int arr[50];(c++ lo)345
         while(n>0)
         {
             rem = n%10;
