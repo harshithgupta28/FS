@@ -26,17 +26,25 @@ class CompleteNumber
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
         int rem =0;
+        //int arr [] = new int[50];
+        int i =0,check =0;
+        // sample no 214
+        // int arr[50];(c++ lo)
         while(n>0)
         {
-             rem = n%10;
+            rem = n%10;
+            if(rem%2==1) 
+            check =1;
+            //arr[i++] = rem;
             n = n/10;
-            }
-            if (rem%2==0)
-            {
-               System.out.print("COMPLETE NUMBER"); 
-            }
-            else {
-                System.out.print("NOT COMPLETE NUMBER");
-            }
+        } 
+        
+        if (check== 0)
+        {
+            System.out.print("COMPLETE NUMBER"); 
+        }
+        else {
+            System.out.print("NOT COMPLETE NUMBER");
+        }
     }
 }

@@ -13,7 +13,7 @@ import java.util.*;
 class DecimalBinary {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);45
         int a=sc.nextInt();
         System.out.print(Integer.toBinaryString(a));
     }
