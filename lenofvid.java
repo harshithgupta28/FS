@@ -16,6 +16,28 @@ Notes
 --> You may get a number of minutes over 99 (e.g. "121:49" is perfectly valid).
 
 */ 
-public class lenofvid {
-    
+import java.util.*;
+class lenofvid{
+    public static void main(Strig args[]){
+        Scanner sc=new Scanner(System.in);
+        String a=sc.next();
+        String arr[]=a.split(":");
+        int arr1[]=new int[arr.length];
+        for(int i=0;i<arr.length;i++){
+            arr1[i]=Integer.parseInt(arr[i]);
+        }
+        int min=arr1[0]*60;
+        int sec=arr1[1];
+        int result=min+sec;
+        if(sec>=60){
+            System.out.println("-1");
+        }
+        else{
+            System.out.println(result);
+        }
+        
+        
+        
+        
+    }
 }
