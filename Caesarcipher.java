@@ -36,7 +36,7 @@ public static void main(String[] args){
 String message, encryptedMessage = "";
 int key;
 char ch;
-Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);  
 
 message = sc.nextLine();
 
