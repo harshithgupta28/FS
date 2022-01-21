@@ -18,7 +18,7 @@ Notes
 */ 
 import java.util.*;
 class lenofvid{
-    public static void main(Strig args[]){
+    public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         String a=sc.next();
         String arr[]=a.split(":");
