@@ -24,5 +24,44 @@ case=3
 input=charan@@@@singh###
 output=1
 
-*/
+*/ 
+import java.util.*;
+class positivestr
+{
+   
+       public static void main(String[] args) {
+           Scanner in = new Scanner(System.in);
+
+           String str = in.nextLine();
+        //    int n = str.length();
+           int count = 0;
+           int count2 = 0;
+           for (int i = 0; i < str.length(); i++) {
+               
+            char a = str.charAt(i);
+              if(a == '#' )
+              {
+                 count++;
+              }
+              else if(a == '@')
+              count2++;
+          }
+          
+// (@>#): positive integer
+// (#>@): negative integer
+// (#=@): 0
+          if(count>count2)
+          {
+              System.out.print(count2-count);
+          }
+          else if( count2>count)
+          {
+              System.out.print(count2-count);
+          }else if(count == count2)
+          {
+              System.out.print("0");
+          }
+       }
+   }
+
  
