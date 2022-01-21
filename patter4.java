@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pattern4 {
+public class patter4 {
 	
 	private static Scanner sc;
 	

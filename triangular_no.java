@@ -21,7 +21,7 @@ Check the Resources for info on triangular number sequence.
 
 */ 
 import java.util.*;
-class Test 
+class triangular_no 
 {
     public static int tri(int n)
     {
