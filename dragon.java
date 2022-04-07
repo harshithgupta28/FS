@@ -27,10 +27,10 @@ input
 output
 12
 input
-2
-3
-4
-5
+2  
+3  
+4   
+5  5
 24
 output
 17
@@ -43,7 +43,7 @@ In the second case dragons 1, 7, 11, 13, 17, 19 and 23 escaped unharmed.
 */
 
 import java.util.*;
-class dragon
+class Test
 {
     
     public static void main (String[] args) {
@@ -52,14 +52,25 @@ class dragon
        int l = sc.nextInt();
        int m = sc.nextInt();
        int n = sc.nextInt();
+       
        int d = sc.nextInt();
-       int count = 0;
-       for(int i =1;i<=d;i++)
+       int count = 0; 
+       int result = 0;
+       if(k==1||l==1||m==1||n==1)
        {
-           if(i%k==0||i%l==0||i%m==0||i%n==0)
-           count++;
+           System.out.print(d);
        }
-       System.out.print(count);
+       else
+       {
+            for(int i =1;i<=d;i++)
+       {
+           if(i%k!=0&&i%l!=0&&i%m!=0&&i%n!=0)
+            count++;
+       }
+       result = d-count;
+       System.out.print(result);
+       }
+      
        
     }
 }
