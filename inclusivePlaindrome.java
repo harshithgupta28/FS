@@ -20,15 +20,13 @@ Single-digit numbers are trivially palindrome numbers.
 */
 
 import java.util.*;
-class Test
+class inclusivePlaindrome
 {
     static int isPalindrome(int n)
     {
         int rev = 0;
         for (int i = n; i > 0; i /= 10)
             rev = rev * 10 + i % 10;
-             
-        
         return(n == rev)? 1 : 0;
     }
      
