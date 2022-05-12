@@ -14,7 +14,7 @@ Output Format:
 Print the number of ways to fill all the buckets.
 
 
-Sample Input-1:
+Sample Inpult-1:
 ---------------
 2
 
